@@ -79,10 +79,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &mt Q RA(AT)  &kp W  &kp E      &kp R         &kp T           &kp Z      &kp U          &kp I           &kp O          &kp P
-                    &kp A         &kp S  &kp D      &kp F         &kp G           &kp H      &kp J          &kp K           &kp L          &kp BACKSPACE
-&mt LEFT_SHIFT TAB  &kp Y         &kp X  &kp C      &kp V         &kp B           &kp N      &kp M          &mt COMMA SEMI  &mt DOT COLON  &mt PLUS MINUS  &kp ENTER
-                                         &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT    &kp SPACE  &kp RIGHT_ALT  &kp BSPC
+                         &mt Q RA(AT)  &kp W  &kp E      &kp R      &kp T        &kp Z          &kp U         &kp I           &kp O          &kp P
+                         &kp A         &kp S  &kp D      &kp F      &kp G        &kp H          &kp J         &kp K           &kp L          &kp BACKSPACE
+&mt LEFT_SHIFT LEFT_WIN  &kp Y         &kp X  &kp C      &kp V      &kp B        &kp N          &kp M         &mt COMMA SEMI  &mt DOT COLON  &mt PLUS MINUS  &kp ENTER
+                                              &kp LCTRL  &lt 1 TAB  &kp SPACE    &kp RIGHT_ALT  &lt 2 DELETE  &kp BSPC
             >;
         };
 
@@ -105,10 +105,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+               &none             &none      &kp UP    &none          &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS
+               &none             &kp LEFT   &kp DOWN  &kp RIGHT      &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5        &kp KP_N6  &kp KP_MINUS
+&kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp PIPE  &kp BACKSLASH  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                            &none     &trans         &none       &none     &none      &kp KP_NUMBER_0
             >;
         };
 
